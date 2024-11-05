@@ -1,6 +1,16 @@
 ﻿#Requires AutoHotkey v2.0
 #SingleInstance Force
 
+; touchpad_scroll.ahk
+; 
+; A utility script to allow scrolling using touchpad motion while holding Ctrl.
+; Written to make scrolling easier in "two thumbs mode" on my Logitech K400 Plus.
+;
+; Author: batzlerg
+; Repository: https://github.com/batzlerg/autohotkey-scripts
+; License: MIT
+
+
 ; Configuration
 INVERT_SCROLL := true      ; Set to true to invert scroll direction (touch-like)
 SCROLL_THRESHOLD := 20     ; Virtual pixels needed to trigger a scroll
